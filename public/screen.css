@@ -9,4 +9,94 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(37, 124, 175);
+  padding-left: 6em;
+  padding-right: 10em;
+  padding-bottom: 7em;
+}
+
+header {
+  font: 45px/ 1 times new roman;
+  color: rgb(68, 80, 105);
+  font-style: inherit;
+  text-align: center;
+  text-decoration-style: double;
+}
+
+.flex-container {
+  display: flex;
+  background-color: lightcyan;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+img {
+  width: 165px;
+  height: 180px;
+
+  padding: 0.2em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  color: aliceblue;
+  text-decoration-line: underline;
+  background-color: rgb(88, 189, 233);
+  padding: 0.5em;
+  list-style: none;
+  padding-right: 8em;
+  padding-left: 8em;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 0.3em;
+  border-spacing: 1em;
+  justify-content: space-between;
+  padding-left: 2em;
+}
+div {
+  border: 1.5px solid rgba(67, 163, 207, 0.726);
+}
+p {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  color: rgb(68, 80, 105);
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 23px;
+  display: flex;
+  flex-direction: row;
+  justify-self: flex-start;
+}
+span ul {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: lightgray;
+  text-decoration-line: underline;
+  list-style: none;
+  padding-left: 11em;
+  padding-right: 11em;
+}
+span {
+  background-size: 1em;
+  background-color: lightgrey;
+}
+article {
+  padding-left: 1.5em;
+  padding-right: 2em;
+}
+
+p {
+  font-family: verdana, tahoma, arial, sans-serif;
+  font-size: 15px;
 }
